@@ -68,7 +68,6 @@ lib/libloc_ds_api.so
 etc/sap.conf
 
 # Hotword Enrollment
--priv-app/HotwordEnrollment/HotwordEnrollment.apk:priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED
 
 # IMS/HD Voice
 bin/ATFWD-daemon
@@ -77,9 +76,6 @@ bin/imsdatadaemon
 bin/imsqmidaemon
 bin/ims_rtp_daemon
 etc/permissions/imscm.xml
--priv-app/CNEService/CNEService.apk
--app/ims/ims.apk
--app/imssettings/imssettings.apk
 vendor/lib/libimscamera_jni.so:lib/libimscamera_jni.so
 vendor/lib64/libimscamera_jni.so:lib64/libimscamera_jni.so
 vendor/lib/libimsmedia_jni.so:lib/libimsmedia_jni.so
@@ -103,20 +99,13 @@ etc/permissions/embms.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/rcsservice.xml
 etc/permissions/telephonyservice.xml
--framework/embmslibrary.jar:PRESIGNED
--framework/qcrilhook.jar:PRESIGNED
--framework/QtiTelephonyServicelibrary.jar:PRESIGNED
--framework/rcsservice.jar:PRESIGNED
 
 # Sprint
--priv-app/SprintDM/SprintDM.apk
--priv-app/SprintHM/SprintHM.apk
 
 # Subsystem Restart
 bin/ssr_setup
 
 # Time Services
--app/TimeService/TimeService.apk
 bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
@@ -125,18 +114,11 @@ bin/time_daemon
 bin/port-bridge
 
 # VZW
--app/VZWAPNLib/VZWAPNLib.apk:app/VZWAPNLib/VZWAPNLib.apk:PRESIGNED
--app/vzw_msdc_api/vzw_msdc_api.apk:app/vzw_msdc_api/vzw_msdc_api.apk:PRESIGNED
 etc/permissions/com.verizon.apn.xml
 etc/permissions/com.verizon.embms.xml
 etc/permissions/com.verizon.provider.xml
 etc/permissions/qti-vzw-ims-internal.xml
 etc/permissions/vzw_sso_permissions.xml
--framework/VerizonUnifiedSettings.jar:PRESIGNED
--priv-app/VZWAPNService/VZWAPNService.apk:priv-app/VZWAPNService/VZWAPNService.apk:PRESIGNED
--priv-app/VZWAVS/VZWAVS.apk:priv-app/VZWAVS/VZWAVS.apk:PRESIGNED
--priv-app/VzwLcSilent/VzwLcSilent.apk:priv-app/VzwLcSilent/VzwLcSilent.apk:PRESIGNED
--priv-app/VzwOmaTrigger/VzwOmaTrigger.apk:priv-app/VzwOmaTrigger/VzwOmaTrigger.apk:PRESIGNED
 
 # Wifi
 bin/cnss-daemon
